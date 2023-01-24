@@ -11,7 +11,18 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
-
+your_list = ["milk", "eggs", "bacon", "beer"]
+friends_list = ["beer", "cookies", "apples"]
+joint_list = your_list + friends_list
+sorted_list = joint_list.sort
+    #puts sorted_list
+deduplicated_list = sorted_list.uniq
+puts "Buy #{deduplicated_list[0]}"
+puts "Buy #{deduplicated_list[1]}"
+puts "Buy #{deduplicated_list[2]}"
+puts "Buy #{deduplicated_list[3]}"
+puts "Buy #{deduplicated_list[4]}"
+puts "Buy #{deduplicated_list[5]}"
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
